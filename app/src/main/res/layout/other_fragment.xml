@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="500sp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1,2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第二章："
+                android:textSize="20sp" />
+
+            <TableRow
+                android:layout_height="20sp"
+                android:layout_marginTop="5sp">
+
+                <Button
+                    android:id="@+id/finish_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="销毁活动"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/explicitIntent_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="显式intent"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/implicitIntent_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="隐式intent"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5sp">
+
+                <Button
+                    android:id="@+id/intenturl_button"
+                    android:layout_width="115sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="intent百度"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/call_button"
+                    android:layout_width="115sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="intent电话"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/trans_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="传递数据"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5sp">
+
+                <Button
+                    android:id="@+id/anti_trans_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="回传数据"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/normal_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="normalactivity"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/dialog_button"
+                    android:layout_width="115sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="dialogactivity"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5sp">
+
+                <Button
+                    android:id="@+id/standard_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="standard"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/singletop_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="singletop"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/singleinstance_button"
+                    android:layout_width="115sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="singleinstance"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5sp">
+
+                <Button
+                    android:id="@+id/bestpractice_button"
+                    android:layout_width="115sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:background="#A9F5A9"
+                    android:text="启动活动最佳实践"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三章："
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/progress_button"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#A9F5A9"
+            android:text="进度条按钮" />
+
+        <ProgressBar
+            android:id="@+id/progress_barhori"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/progresshoriz_button"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#A9F5A9"
+            android:text="水平进度条按钮（点击加10%）" />
+
+
+            <Button
+                android:id="@+id/alert_button"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:background="#A9F5A9"
+                android:text="AlertDialog"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20sp"/>
+            <Button
+                android:id="@+id/progressdialog_button"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:background="#A9F5A9"
+                android:text="ProgressDialog"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相对布局一："
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400sp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft = "true"
+                android:layout_alignParentTop = "true"
+                android:text="Button 1"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight = "true"
+                android:layout_alignParentTop = "true"
+                android:text="Button 2"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent = "true"
+                android:text="Button 3"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom = "true"
+                android:layout_alignParentLeft = "true"
+                android:text="Button 4"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom = "true"
+                android:layout_alignParentRight = "true"
+                android:text="Button 5"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相对布局二："
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400sp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above = "@id/button3"
+                android:layout_toLeftOf="@+id/button3"
+                android:text="Button 1"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above = "@id/button3"
+                android:layout_toRightOf="@+id/button3"
+                android:text="Button 2"
+                />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent = "true"
+                android:text="Button 3"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below = "@id/button3"
+                android:layout_toLeftOf="@+id/button3"
+                android:text="Button 4"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below = "@id/button3"
+                android:layout_toRightOf="@+id/button3"
+                android:text="Button 5"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第四章："
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/news_button"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:background="#A9F5A9"
+            android:text="新闻"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        
+    </LinearLayout>
+</ScrollView>
